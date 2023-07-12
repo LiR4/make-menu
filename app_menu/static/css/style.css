@@ -1,0 +1,39 @@
+:root {
+    --fundo: #333;
+}
+
+/* nav */
+
+.navbar-brand {
+    color: #fff;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+/* Title */
+
+#containerT {
+    padding: 2rem;
+    color: #fff;
+}
+
+.col > h3 {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#cat {
+    color: #FDA72B;
+}
+
+/* Cards */
+
+.card {
+    --bs-card-bg: var(--fundo);
+    margin: 2rem 0;
+    border: var(--bs-card-border-width) solid #fff;
+    color: #fff;
+}
